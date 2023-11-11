@@ -1,0 +1,53 @@
+Running: G:\ISE_Nsb\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o C:/Users/mohsen/Desktop/mano/mano/top_test_isim_beh.exe -prj C:/Users/mohsen/Desktop/mano/mano/top_test_beh.prj work.top_test 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/mohsen/Desktop/mano/mano/TR.vhd" into library work
+Parsing VHDL file "C:/Users/mohsen/Desktop/mano/mano/sequence_counter.vhd" into library work
+Parsing VHDL file "C:/Users/mohsen/Desktop/mano/mano/PC.vhd" into library work
+Parsing VHDL file "C:/Users/mohsen/Desktop/mano/mano/OUTR.vhd" into library work
+Parsing VHDL file "C:/Users/mohsen/Desktop/mano/mano/memory.vhd" into library work
+Parsing VHDL file "C:/Users/mohsen/Desktop/mano/mano/IR.vhd" into library work
+Parsing VHDL file "C:/Users/mohsen/Desktop/mano/mano/E.vhd" into library work
+Parsing VHDL file "C:/Users/mohsen/Desktop/mano/mano/DR.vhd" into library work
+Parsing VHDL file "C:/Users/mohsen/Desktop/mano/mano/decoder4_16.vhd" into library work
+Parsing VHDL file "C:/Users/mohsen/Desktop/mano/mano/decoder3_8.vhd" into library work
+Parsing VHDL file "C:/Users/mohsen/Desktop/mano/mano/AR.vhd" into library work
+Parsing VHDL file "C:/Users/mohsen/Desktop/mano/mano/alu.vhd" into library work
+Parsing VHDL file "C:/Users/mohsen/Desktop/mano/mano/AC.vhd" into library work
+Parsing VHDL file "C:/Users/mohsen/Desktop/mano/mano/control_unit.vhd" into library work
+Parsing VHDL file "C:/Users/mohsen/Desktop/mano/mano/common_bus.vhd" into library work
+Parsing VHDL file "C:/Users/mohsen/Desktop/mano/mano/top.vhd" into library work
+Parsing VHDL file "C:/Users/mohsen/Desktop/mano/mano/top_test.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_signed
+Compiling package numeric_std
+Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity memory [memory_default]
+Compiling architecture behavioral of entity AR [ar_default]
+Compiling architecture behavioral of entity PC [pc_default]
+Compiling architecture behavioral of entity DR [dr_default]
+Compiling architecture behavioral of entity AC [ac_default]
+Compiling architecture behavioral of entity alu [alu_default]
+Compiling architecture behavioral of entity E [e_default]
+Compiling architecture behavioral of entity IR [ir_default]
+Compiling architecture behavioral of entity TR [tr_default]
+Compiling architecture behavioral of entity OUTR [outr_default]
+Compiling architecture behavioral of entity common_bus [common_bus_default]
+Compiling architecture behavioral of entity decoder3_8 [decoder3_8_default]
+Compiling architecture behavioral of entity decoder4_16 [decoder4_16_default]
+Compiling architecture behavioral of entity sequence_counter [sequence_counter_default]
+Compiling architecture behavioral of entity control_unit [control_unit_default]
+Compiling architecture behavioral of entity top [top_default]
+Compiling architecture behavior of entity top_test
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 39 VHDL Units
+Built simulation executable C:/Users/mohsen/Desktop/mano/mano/top_test_isim_beh.exe
+Fuse Memory Usage: 39156 KB
+Fuse CPU Usage: 765 ms
